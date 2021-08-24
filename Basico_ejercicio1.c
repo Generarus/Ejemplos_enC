@@ -2,13 +2,15 @@
 // Imprime un menú y selecciona una opción
 // Autor: GENARO HERNÁNDEZ VALDEZ
 #include <stdio.h>
-/*#include <graphics.h>
-#include <iostream.h>
-#include <linux.h>*/
+#include <math.h>
+#include <stdlib.h>
+//#include <iostream.h>
+
 
 int main() 
 {
     int opcion=0;
+    int i;
     printf("\nOperaciones matemáticas básicas:\n");
     printf("\n1.- Suma\n\n2.- Resta\n\n3.- Multiplicación\n\n4.- División\n\n5.- Salir\n\n");
     
@@ -23,8 +25,8 @@ int main()
                     else if(opcion==5) printf("\nElegiste la opción %d: salir\n\n", opcion);
                          else printf("\nOpción no valida\n\n");
     
-        printf("\nPresione cualquier tecla para continuar\n\n");
-        char c=getchar();
+        //printf("\nPresione cualquier tecla para continuar\n\n");
+        //scanf("%d", &i);
         //clear();
     }  
     return 0; 
