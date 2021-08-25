@@ -26,7 +26,7 @@ int main()
     //Comandos gnuplot:
     char *cgnu [] ={"set title \"Grafica de Dispersión y Regresión lineal\"", 
                     "set xlabel \"Tiempo (segundos)\"", 
-                    "set ylabel \"Temperatura (°C)\"", 
+                    "set ylabel \"Desplazamiento (cm)\"", 
                     "set grid", 
                     "set autoscale", 
                     "plot 'GraficaDispersion.txt' with points, 'RegresionLineal.txt' with lines"
