@@ -1,4 +1,4 @@
-// ROGRAMACIÓN AVANZADA Ejercicio 1: Regresión Lineal
+// PROGRAMACIÓN AVANZADA Ejercicio 1: Regresión Lineal
 // Este programa lee un archivo que contiene mediciones de temperatura tomadas cada 0.1 segundos
 // En base a estos datos realiza un ajuste de curva utilizando el método de mínios cuadrados
 // Finalmente grafica los datos de temperatura y su ajuste de curva T=mt+b
